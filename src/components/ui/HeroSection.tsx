@@ -196,7 +196,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   ];
   
   return (
-    <section className={`relative min-h-screen flex items-center justify-center pt-20 pb-48 px-4 sm:px-6 lg:px-8 overflow-hidden  ${
+    <section className={`relative min-h-screen flex items-center justify-center pt-20 pb-58 px-4 sm:px-6 lg:px-8 overflow-hidden  ${
       isDarkMode ? 'text-white' : 'text-slate-900'
     }`}>
       <BackgroundPattern isDarkMode={isDarkMode} />
@@ -283,7 +283,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           
           <motion.button 
             onClick={() => onNavigate?.('templates')}
-            className={`flex items-center space-x-2 px-8 py-4 rounded-xl font-semibold text-lg border-2 transition-all duration-300 ${
+            className={`flex items-center space-x-2 px-6 py-4 rounded-xl font-semibold text-lg border-2 transition-all duration-300 ${
               isDarkMode 
                 ? 'border-slate-700 text-slate-300 hover:border-slate-600 hover:bg-slate-800' 
                 : 'border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50'
