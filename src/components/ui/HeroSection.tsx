@@ -355,7 +355,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               : 'bg-white border-slate-200/50'
           }`}>
             {/* Header */}
-            <div className="space-y-3 mb-6">
+            <div className="space-y-3 mb-20">
               <div className="h-5 bg-gradient-to-r from-blue-600 to-blue-400 rounded w-4/5"></div>
               <div className={`h-3 rounded w-3/5 ${
                 isDarkMode ? 'bg-slate-600' : 'bg-slate-300'
