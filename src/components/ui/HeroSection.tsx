@@ -196,7 +196,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   ];
   
   return (
-    <section className={`relative min-h-screen flex items-center justify-center pt-20 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden  ${
+    <section className={`relative min-h-screen flex items-center justify-center pt-20  px-4 sm:px-6 lg:px-8 overflow-hidden  ${
       isDarkMode ? 'text-white' : 'text-slate-900'
     }`}>
       <BackgroundPattern isDarkMode={isDarkMode} />
