@@ -165,7 +165,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
       />
 
       {/* Features Section */}
-      <section id="features" className={`py-24 ${isDarkMode ? 'bg-slate-900' : 'bg-slate-50'}`} aria-labelledby="features-heading">
+      <section id="features" className={`py-18 ${isDarkMode ? 'bg-slate-900' : 'bg-slate-50'}`} aria-labelledby="features-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <motion.div
