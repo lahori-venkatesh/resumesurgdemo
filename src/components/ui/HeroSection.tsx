@@ -58,7 +58,7 @@ const BackgroundPattern = ({ isDarkMode }: { isDarkMode: boolean }) => {
       {/* Professional Grid Pattern */}
       <div 
         className={`absolute inset-0 ${
-          isDarkMode ? 'opacity-[0.08]' : 'opacity-[0.03]'
+          isDarkMode ? 'opacity-[0.10]' : 'opacity-[0.03]'
         }`}
         style={{
           backgroundImage: `
@@ -257,7 +257,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           <SignedOut>
             <SignInButton mode="modal">
               <motion.button
-                className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg flex items-center space-x-3 shadow-xl hover:shadow-2xl transition-all duration-300"
+                className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-xl font-semibold text-lg flex items-center space-x-3 shadow-xl hover:shadow-2xl transition-all duration-300"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -423,7 +423,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className={`absolute -top-2 -left-4 w-48 h-64 rounded-lg shadow-lg border backdrop-blur-sm ${
+            className={`absolute -top-4 -left-4 w-48 h-64 rounded-lg shadow-lg border backdrop-blur-sm ${
               isDarkMode 
                 ? 'bg-slate-800/80 border-slate-700/30' 
                 : 'bg-white/80 border-slate-200/30'
