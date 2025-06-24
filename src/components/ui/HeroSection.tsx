@@ -423,7 +423,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className={`absolute -top-4 -left-4 w-48 h-64 rounded-lg shadow-lg border backdrop-blur-sm ${
+            className={`absolute -top-2 -left-4 w-48 h-64 rounded-lg shadow-lg border backdrop-blur-sm ${
               isDarkMode 
                 ? 'bg-slate-800/80 border-slate-700/30' 
                 : 'bg-white/80 border-slate-200/30'
