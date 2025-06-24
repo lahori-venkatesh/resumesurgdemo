@@ -257,7 +257,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           <SignedOut>
             <SignInButton mode="modal">
               <motion.button
-                className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-xl font-semibold text-lg flex items-center space-x-3 shadow-xl hover:shadow-2xl transition-all duration-300"
+                className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4 rounded-xl font-semibold text-lg flex items-center space-x-3 shadow-xl hover:shadow-2xl transition-all duration-300"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
