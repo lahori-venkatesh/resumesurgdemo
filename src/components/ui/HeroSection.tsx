@@ -345,7 +345,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         initial={{ opacity: 0, scale: 0.8, x: 100 }}
         animate={{ opacity: 1, scale: 1, x: 0 }}
         transition={{ duration: 1.2, delay: 1.2, ease: "easeOut" }}
-        className="absolute right-8 top-1/4 transform -translate-y-1/2 hidden xl:block"
+        className="absolute right-8 top-1/4 transform -translate-y-1/3 hidden xl:block"
       >
         {/* Main Resume Card */}
         <div className="relative">
