@@ -165,9 +165,9 @@ const LandingPage: React.FC<LandingPageProps> = ({
       />
 
       {/* Features Section */}
-      <section id="features" className={`py-24 ${isDarkMode ? 'bg-slate-900' : 'bg-slate-50'}`} aria-labelledby="features-heading">
+      <section id="features" className={`py-32 ${isDarkMode ? 'bg-slate-900' : 'bg-slate-50'}`} aria-labelledby="features-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-20">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -228,9 +228,9 @@ const LandingPage: React.FC<LandingPageProps> = ({
       
 
       {/* How to Use Section */}
-      <section id="how-to-use" className={`py-24 ${isDarkMode ? 'bg-slate-900' : 'bg-slate-50'}`} aria-labelledby="how-to-use-heading">
+      <section id="how-to-use" className={`py-32 ${isDarkMode ? 'bg-slate-900' : 'bg-slate-50'}`} aria-labelledby="how-to-use-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-20">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -294,14 +294,14 @@ const LandingPage: React.FC<LandingPageProps> = ({
       </Suspense>
 
       {/* FAQ Section */}
-      <section id="faq" className={`py-24 ${isDarkMode ? 'bg-slate-950' : 'bg-white'}`} aria-labelledby="faq-heading">
+      <section id="faq" className={`py-32 ${isDarkMode ? 'bg-slate-950' : 'bg-white'}`} aria-labelledby="faq-heading">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-16"
+            className="text-center mb-20"
           >
             <h2 id="faq-heading" className={`text-4xl md:text-5xl font-bold mb-6 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
               Frequently Asked Questions
@@ -355,7 +355,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
       </section>
 
       {/* CTA Section */}
-      <section id="cta" className="py-24 bg-gradient-to-br from-blue-600 to-indigo-700" aria-labelledby="cta-heading">
+      <section id="cta" className="py-32 bg-gradient-to-br from-blue-600 to-indigo-700" aria-labelledby="cta-heading">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -393,7 +393,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
       </section>
 
       {/* Footer */}
-      <footer className={`py-16 ${isDarkMode ? 'bg-slate-900 border-t border-slate-800' : 'bg-gray-800'} text-white`} aria-labelledby="footer-heading">
+      <footer className={`py-20 ${isDarkMode ? 'bg-slate-900 border-t border-slate-800' : 'bg-gray-800'} text-white`} aria-labelledby="footer-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             <div className="md:col-span-2">
@@ -441,7 +441,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
             </div>
           </div>
           
-          <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <div className="border-t border-gray-700 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
               © 2025 ResumeSurge. All rights reserved.
             </p>

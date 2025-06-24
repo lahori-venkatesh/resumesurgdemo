@@ -196,7 +196,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   ];
   
   return (
-    <section className={`relative min-h-screen flex items-center justify-center pt-20 pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden ${
+    <section className={`relative min-h-screen flex items-center justify-center pt-20 pb-40 px-4 sm:px-6 lg:px-8 overflow-hidden mb-24 ${
       isDarkMode ? 'text-white' : 'text-slate-900'
     }`}>
       <BackgroundPattern isDarkMode={isDarkMode} />
@@ -225,7 +225,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className={`text-5xl md:text-7xl font-bold mb-6 leading-tight tracking-tight ${
+          className={`text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight ${
             isDarkMode ? 'text-white' : 'text-slate-900'
           }`}
         >
@@ -240,7 +240,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className={`text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed ${
+          className={`text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed ${
             isDarkMode ? 'text-slate-300' : 'text-slate-600'
           }`}
         >
@@ -252,7 +252,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
         >
           <SignedOut>
             <SignInButton mode="modal">
@@ -300,7 +300,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className={`inline-flex items-center space-x-2 text-sm mb-16 ${
+          className={`inline-flex items-center space-x-2 text-sm mb-20 ${
             isDarkMode ? 'text-slate-400' : 'text-slate-500'
           }`}
         >
@@ -479,7 +479,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
       <motion.div
         animate={{ y: [0, -10, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-12 left-1/2 transform -translate-x-1/2"
       >
         <div className={`w-6 h-10 border-2 rounded-full flex justify-center ${
           isDarkMode ? 'border-slate-600' : 'border-slate-300'
